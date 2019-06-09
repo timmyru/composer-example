@@ -1,0 +1,21 @@
+{
+    "name": "artemka/composer-example222",
+    "description": "Example composer package",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Artem Prygin",
+            "email": "aprygin@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "artemka\\parser\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
